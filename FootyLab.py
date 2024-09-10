@@ -12,13 +12,13 @@ import streamlit.components.v1 as components
 #import seaborn as sns
 
 st.set_page_config(
-    page_title="footyLab • Play to Learn | DataRook, Inc.",
+    page_title="One Knox 2013B Yellow Pool Data WebApp | DataRook, Inc.",
     page_icon="./media/footylab_v2_icon.png",
     layout="wide",
     initial_sidebar_state="collapsed",
     menu_items={
         'Get Help': 'https://datarook.com/contact',
-        'About': "## This is a demo version of footyLab. Contact gus@datarook.com to learn more"
+        'About': "## This is being custom made by Gus Alvarez for the One Knox 2013B Yellow Pool. Contact gus@datarook.com to learn more"
     }
 )
 

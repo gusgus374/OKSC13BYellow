@@ -9,7 +9,7 @@ import pathlib
 import streamlit.components.v1 as components
 
 
-st.title("Welcome to footyLab!")
+st.title("Welcome to (a sneak peek of) footyLab!")
 iframe_src3 = "https://www.youtube.com/embed/wBY0Qlk_djU?si=7yaVJXCdvYXkXxcq"
 components.iframe(iframe_src3,600,400)
 #if st.button("Best ever"):

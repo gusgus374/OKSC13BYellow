@@ -44,7 +44,7 @@ with coach_message:
 # Read the CSV file
 season_choice = st.selectbox("Pick a season",["Fall 24","Fall 23 and Spring 24"])
 if season_choice == "Fall 24":
-        file_path = './data/OneKnox_13B_Yellow1_Fall24Season.csv'
+        file_path = './data/OneKnox_13B_YellowPool_Fall24Season.csv'
         all_data = pd.read_csv(file_path)
         # Replace ":" with "_" in the column names
         all_data.columns = [col.replace(':', ' ') for col in all_data.columns]

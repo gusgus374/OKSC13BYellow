@@ -27,8 +27,8 @@ if "user" not in st.session_state:
 #if "password" not in st.session_state:
 #     st.session_state.password = None
 
-ROLES = [None,"Yellow 1"]
-allroles = ["Yellow 1"]
+ROLES = [None,"Yellow"]
+allroles = ["Yellow"]
 #playersdeployed = ["Coach Gus", "Kellan", "Dashley", "AyMarri"]
 def login():
 

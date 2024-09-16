@@ -58,7 +58,7 @@ settings = st.Page("settings.py", title="Settings", icon=":material/settings:")
 BootRoom = st.Page(
     "./coach/1_BootRoom.py",
     title="BootRoom",
-    icon=":material/interactive_space:",default=(user == "Yellow 1")
+    icon=":material/interactive_space:",default=(user == "Yellow")
 )
 coachGus = st.Page(
     "./coach/coachGus.py", title="Coach's Examples", icon=":material/sports:",default=(user == "Coach Gus")

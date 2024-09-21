@@ -102,7 +102,7 @@ with col2:
 with col1:
         iframe_src = "https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_en.html"
         components.iframe(iframe_src,height=500)
-        st.caption("Hint: make sure to click the 'Voltage' checkbox then drag and drop the red and blue particels around")
+        st.caption("Hint: make sure to click the 'Voltage' checkbox then drag and drop the red and blue particles around")
 st.subheader("The invention of the Pitch Control model helps coaches answer questions like:")
 st.write(':orange["when is the right moment in the game to press and try to win the ball back?"]')
 st.subheader("or")
